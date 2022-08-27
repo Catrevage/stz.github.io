@@ -1,0 +1,544 @@
+body {
+    background-color: #aaa;
+    font-family: arial;
+    margin: 0px;
+    padding: 0px;
+    font-size: 25px;
+
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    height: auto;
+    
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+
+}
+
+nav ul {
+    display: flex
+}
+nav a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: whitesmoke;
+    transition: all 2s linear;
+}
+
+nav a:hover {
+    background-color: black;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    background-image: url('../img/engineer-4690505_960_720.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+
+
+.coluna {
+    display: flex;
+    flex-direction: column;
+}
+
+.text_ban {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+
+.info {
+    display: flex;
+    height: 220px;
+}
+
+.text_ban h1 {
+    color: white;
+    width: 500px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.text_ban h3 {
+    margin: 0px;
+    padding: 0px;
+    width: 500px;
+    color: white;
+}
+
+
+.info_div1 {
+    flex: 1;
+    border-radius: 50px;
+    background-color: #aaa;   
+    transition: all 2s linear;
+
+}
+
+.info_div2 {
+    flex: 1;   
+    border-radius: 50px;
+    background-color: #999;
+    transition: all 2s linear;
+
+}
+
+.info_div3 {
+    flex: 1;
+    border-radius: 50px;
+    background-color: #555;   
+    transition: all 2s linear;
+}
+
+.info h1 {
+    color: white;
+    font-size: 30px;
+    margin-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+}
+
+.info ul {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type:circle;
+}
+
+.info_div1:hover {
+    flex: 2;
+    background-color: black;
+}
+
+.info_div2:hover {
+    flex: 2;
+    background-color: black;
+}
+
+.info_div3:hover {
+    flex: 2;
+    background-color: black;
+}
+
+.wideget {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+
+.produtos {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.pspace {
+    justify-content: center;
+    height: 300px;
+}
+
+.produtos_div1 {
+    flex: 1;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    border-radius: 50px;
+    padding: 15px;
+    background-color: #999;
+    transition: all 2s linear;
+
+}
+
+.produtos_div1:hover {
+    background-color: black;
+
+}
+
+.produtos_div1 div h1 {
+    flex: 1;
+    width: 300px;
+    font-size: 30px;
+}
+
+.produtos_div1 div img {
+    flex: 1;
+}
+
+.produtos_div1 div ul {
+    flex: 1;
+    list-style-type: none;
+    
+}
+
+.produtos_div1 div ul li {
+    margin-bottom: 15px;
+}
+
+.produtos_div1 div ul li:hover {
+    font-size: 40px;
+}
+
+
+
+.produtos_div2 {
+    flex: 1;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    border-radius: 50px;
+    padding: 15px;
+    background-color: #999
+}
+
+.produtos_div2:hover {
+    background-color: black;
+
+}
+
+.produtos_div2 div h1 {
+    flex: 1;
+    width: 300px;
+    font-size: 30px;
+}
+
+.produtos_div2 div img {
+    flex: 1;
+}
+
+.produtos_div2 div ul {
+    flex: 1;
+    list-style-type: none;
+    
+}
+
+.produtos_div2 div ul li {
+    margin-bottom: 15px;
+    
+}
+
+.produtos_div2 div ul li:hover {
+    font-size: 40px;
+}
+
+.clientes {
+    display: flex;
+    justify-content: center;
+
+}
+
+.cont_cli {
+    flex-wrap: wrap;
+}
+
+.clientes div img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+
+.cases {
+    display: flex;
+    justify-content: center;
+}
+
+.case_cont {
+    justify-content: left;
+}
+
+.cases article {
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+.sobre {
+    display: flex;
+    justify-content: center;
+}
+
+.cont_sobre {
+    justify-content: left;
+}
+
+.sobre article {
+    text-align: justify;
+
+}
+
+.contato {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.cont_cont {
+    justify-content: left;
+}
+
+form input {
+    margin-bottom: 20px;
+    margin-top: 20px;    
+    height: 30px;
+    font-size: 20px;
+}
+
+.nome {
+    width: 400px;
+}
+
+textarea {
+    resize: none;
+    width: 500px; 
+    height: 250px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1e1e1e;
+    color: white;
+    height: 250px;
+}
+
+footer .container {
+    flex-direction: column;
+    align-items: center;
+}
+
+footer p {
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+footer address {
+    margin-top: 30px;
+}
+
+.copy {
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+
+input[type='submit'] {
+    font-weight: bold;
+    padding: 10px;
+    height: 40px;
+    width: 100px;
+
+}
+
+.mm {
+    display: none;
+    width: 40px;
+    height: 40px;
+}
+
+.mm_linha {
+    display: none;
+    height: 2px;
+    background-color: black;
+}
+
+@media (max-width: 1024px) {
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        width: 900px;
+        
+    }
+
+    .produtos img {
+        width: 200px;
+        height: 125px;
+    }
+
+    .produtos ul {
+        font-size: 20px;
+    }
+
+    .clientes div img  {
+        width: 280px;
+        height: 280px;
+    }
+}
+
+@media (max-width:800px) {
+    
+    .container {
+        width: 720px;
+    }
+
+    .menu {
+        font-size: 17px;
+    }
+
+    .info ul {
+        font-size: 20px;
+    }
+
+    .produtos_div1 div ul {
+        font-size: 15px;
+    }
+
+    .produtos_div1 div ul li:hover {
+        font-size: 20px;
+    }
+
+    .produtos_div2 div ul li:hover {
+        font-size: 20px;
+    }
+
+
+}
+
+@media (max-width: 430px) {
+    .container {
+        width: 400px;
+    }
+    nav ul {
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: aquamarine;
+
+    }
+
+    .info {
+        flex-direction: column;
+    }
+
+    .banner h3 {
+        width: 300px;
+        display: none;
+    }
+
+    header {
+        width: auto;
+    }
+    
+    .mm {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+       
+    }
+
+    .mm_linha {
+        display: block;
+    }
+
+    .wideget {
+        font-size: 20px;
+    }
+
+    .produtos {
+        flex-direction: column;
+    }
+
+    .pspace {
+        flex-direction: column;
+    }
+
+    .banner {
+        height: auto;
+    }
+    
+    .info {
+        height: auto;
+    }
+
+    .pspace {
+        height: auto;
+    }
+
+    #clientes .logo {
+        display: none;
+    }
+
+    #cases .logo {
+        display: none;
+    }
+
+    #contact .logo {
+        display: none;
+    }
+
+    .wideget h1 {
+        font-size: 30px;
+    }
+    textarea {
+        width: 400px;
+    }
+
+@media (max-width: 380px) {
+    .container {
+        width: 360px;
+    }
+
+    textarea {
+        width: 350px;
+    }
+
+    .nome {
+        width: 350px;
+    }
+}
+
+
+@media (max-width: 330px) {
+    .container {
+        width: 300px;
+    }
+
+    .banner h1 {
+        width: 290px;
+        font-size: 40px;
+    }
+    
+    textarea {
+        width: 290px;
+    }
+
+    .nome {
+        width: 290px;
+    }
+
+    footer {
+        font-size: 20px;
+    }
+}
