@@ -574,6 +574,15 @@ input[type='submit'] {
         width: 100%;
 
     }
+    
+    .banner h3 {
+        width: 300px;
+        display: none;
+    }
+
+    header {
+        width: auto;
+    }
 
     .mm {
         display: flex;
@@ -652,6 +661,15 @@ input[type='submit'] {
         left: 0;
         width: 100%;
 
+    }
+    
+    .banner h3 {
+        width: 300px;
+        display: none;
+    }
+
+    header {
+        width: auto;
     }
 
     .mm {
