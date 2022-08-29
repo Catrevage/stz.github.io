@@ -375,7 +375,7 @@ input[type='submit'] {
     background-color: black;
 }
 
-@media screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
 
     .container {
         display: flex;
@@ -399,7 +399,7 @@ input[type='submit'] {
     }
 }
 
-@media screen and  (max-width:800px) {
+@media (min-width:800px) and (max-width: 1023px)  {
     
     .container {
         width: 720px;
@@ -428,7 +428,59 @@ input[type='submit'] {
 
 }
 
-@media screen and (max-width: 430px) {
+@media (min-width: 621px) and (max-width:799px) {
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        width: 640px;
+        
+    }
+
+    .menu {
+        font-size: 14px;
+    }
+    .info_div1 {
+        font-size: 20px;
+    }
+
+    .info_div2 {
+        font-size: 20px;
+    }
+
+    .info_div3 {
+        font-size: 20px;
+    }
+
+    #clientes .logo {
+        display: none;
+    }
+
+    #cases .logo {
+        display: none;
+    }
+
+    #contact .logo {
+        display: none;
+    }
+
+    .produtos img {
+        width: 150px;
+        height: 75px;
+    }
+
+    .produtos ul {
+        font-size: 15px;
+    }
+
+    .clientes div img  {
+        width: 280px;
+        height: 280px;
+    }
+}
+
+ 
+@media (min-width: 430px) and (max-width:620px) {
     .container {
         width: 400px;
     }
@@ -438,7 +490,6 @@ input[type='submit'] {
         position: absolute;
         left: 0;
         width: 100%;
-        background-color: aquamarine;
 
     }
 
@@ -508,10 +559,75 @@ input[type='submit'] {
     textarea {
         width: 400px;
     }
+}
 
-@media screen and  (max-width: 380px) {
+@media (min-width: 380px) and (max-width: 429px)  {
     .container {
         width: 360px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+
+    }
+
+    .mm {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+       
+    }
+
+    .mm_linha {
+        display: block;
+    }
+
+    .info {
+        flex-direction: column;
+    }
+
+    .wideget {
+        font-size: 20px;
+    }
+
+    .produtos {
+        flex-direction: column;
+    }
+
+    .pspace {
+        flex-direction: column;
+    }
+
+    .banner {
+        height: auto;
+    }
+    
+    .info {
+        height: auto;
+    }
+
+    .pspace {
+        height: auto;
+    }
+
+    #clientes .logo {
+        display: none;
+    }
+
+    #cases .logo {
+        display: none;
+    }
+
+    #contact .logo {
+        display: none;
+    }
+
+    .wideget h1 {
+        font-size: 30px;
     }
 
     textarea {
@@ -524,9 +640,73 @@ input[type='submit'] {
 }
 
 
-@media screen and  (max-width: 330px) {
+@media (max-width: 379px) {
     .container {
         width: 300px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+
+    }
+
+    .mm {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+       
+    }
+
+    .mm_linha {
+        display: block;
+    }
+
+    .info {
+        flex-direction: column;
+    }
+    
+    .wideget {
+        font-size: 20px;
+    }
+
+    .produtos {
+        flex-direction: column;
+    }
+
+    .pspace {
+        flex-direction: column;
+    }
+
+    .banner {
+        height: auto;
+    }
+    
+    .info {
+        height: auto;
+    }
+
+    .pspace {
+        height: auto;
+    }
+
+    #clientes .logo {
+        display: none;
+    }
+
+    #cases .logo {
+        display: none;
+    }
+
+    #contact .logo {
+        display: none;
+    }
+
+    .wideget h1 {
+        font-size: 30px;
     }
 
     .banner h1 {
