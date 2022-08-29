@@ -375,7 +375,7 @@ input[type='submit'] {
     background-color: black;
 }
 
-@media (min-width: 1024px) {
+@media screen and (max-width: 1024px) {
 
     .container {
         display: flex;
@@ -399,7 +399,7 @@ input[type='submit'] {
     }
 }
 
-@media (min-width:800px) {
+@media screen and  (max-width:800px) {
     
     .container {
         width: 720px;
@@ -428,7 +428,7 @@ input[type='submit'] {
 
 }
 
-@media (min-width: 430px) {
+@media screen and (max-width: 430px) {
     .container {
         width: 400px;
     }
@@ -509,7 +509,7 @@ input[type='submit'] {
         width: 400px;
     }
 
-@media (min-width: 380px) {
+@media screen and  (max-width: 380px) {
     .container {
         width: 360px;
     }
@@ -524,7 +524,7 @@ input[type='submit'] {
 }
 
 
-@media (min-width: 330px) {
+@media screen and  (max-width: 330px) {
     .container {
         width: 300px;
     }
